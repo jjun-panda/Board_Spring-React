@@ -2,4 +2,4 @@
 
 GRANT SELECT, UPDATE, DELETE, INSERT
 ON boardBlog.*
-TO 'developer'@'*';
+TO 'developer'@'%';
