@@ -1,4 +1,4 @@
--- Active: 1692973076676@@127.0.0.1@3306@boardBlog
+-- Active: 1693107146497@@127.0.0.1@3306@boardBlog
 
 -- 회원가입
 INSERT INTO user VALUES ('email@email.com', 'p!ssw0rd', 'nickname', '01012345678', '서울특별시 강남구', '신세계백화점', null);
