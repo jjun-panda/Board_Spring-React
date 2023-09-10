@@ -26,7 +26,7 @@ public class JwtProvider {
         SecretKey key = Keys.hmacShaKeyFor(secretKey.getBytes());
 
         String jwt = Jwts.builder()
-            .signWith(key, SignatureAlgorithm.HS256)
+            .signWith(key, SignatureAlgorithm.ES256)
             .setSubject(email).setIssuedAt(new Date()).setExpiration(expitrdDate)
             .compact();
 
