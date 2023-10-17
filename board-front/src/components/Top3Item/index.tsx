@@ -21,13 +21,13 @@ export default function Top3Item({ top3ListItem }: Props) {
 		// navigator(boardNumber);
 	}
 
-    return (
-        <div className='top-3-list-item' style={{backgroundImage: `url(${boardTitleImage})`}} onClick={onClickHandler}>
-            <div className='main-box'>
-                {/* 작성자 프로필 */}
+	return (
+		<div className='top-3-list-item' style={{backgroundImage: `url(${boardTitleImage})`}} onClick={onClickHandler}>
+			<div className='main-box'>
+				{/* 작성자 프로필 */}
 				<div className='top'>
 					<div className='profile-box'>
-                        <div className='profile-image' style={{backgroundImage: `url(${writerProfileImage? writerProfileImage : basicProfileImage})`}}></div>
+						<div className='profile-image' style={{backgroundImage: `url(${writerProfileImage? writerProfileImage : basicProfileImage})`}}></div>
 					</div>
 					<div className='write-box'>
 						<div className='nickname bodyB12x'>{writerNickname}</div>
@@ -46,6 +46,6 @@ export default function Top3Item({ top3ListItem }: Props) {
 					<div className='counts caption'>{`댓글 ${commentCount} | 좋아요 ${favoriteCount} | 조회수 ${viewCount}`}</div>
 				</div>
 			</div>
-        </div>
-    )
+		</div>
+	)
 }

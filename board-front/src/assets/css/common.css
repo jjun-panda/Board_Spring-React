@@ -106,7 +106,7 @@
   --text-assitive: #828282;
   --text-alternative: #494949;
   --text-white: #FFF;
-  --text-whiteHalf: rgba(255, 255, 255, .5);
+  --text-whiteHalf: rgba(255, 255, 255, .8);
   --background-primary: #f5f4f7;
   --background-secondary: #fff;
   --background-tertiary: #fafafa;
@@ -157,7 +157,7 @@
   --text-assitive: #7d7d7d;
   --text-alternative: #b6b6b6;
   --text-white: #FFF;
-  --text-whiteHalf: rgba(255, 255, 255, .5);
+  --text-whiteHalf: rgba(255, 255, 255, .8);
   --background-primary: #0f0f0f;
   --background-secondary: #1e1e1e;
   --background-tertiary: #343434;
