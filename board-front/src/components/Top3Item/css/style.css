@@ -1,0 +1,84 @@
+.top-3-list-item {
+  width: calc(33.3333333333% - 1.5rem);
+  height: 25rem;
+  padding: 1.5rem;
+  background-color: var(--primary-normal);
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100%;
+  background-size: cover;
+}
+.top-3-list-item:hover {
+  opacity: 0.8;
+}
+.top-3-list-item .main-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.top-3-list-item .main-box .top {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.top-3-list-item .main-box .top .profile-box {
+  width: 2rem;
+  height: 2rem;
+}
+.top-3-list-item .main-box .top .profile-box .profile-image {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-position: 50%;
+  background-size: 100%;
+}
+.top-3-list-item .main-box .top .write-box {
+  display: flex;
+  flex-direction: column;
+}
+.top-3-list-item .main-box .top .write-box .nickname {
+  color: var(--text-white);
+}
+.top-3-list-item .main-box .top .write-box .write-datetime {
+  color: var(--text-whiteHalf);
+}
+.top-3-list-item .main-box .middle {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.top-3-list-item .main-box .middle .title {
+  color: var(--text-white);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.top-3-list-item .main-box .middle .content {
+  color: var(--text-white);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.top-3-list-item .main-box .bottom .counts {
+  color: var(--text-white);
+}
+.top-3-list-item .image-box {
+  width: 8rem;
+  height: 8rem;
+}
+.top-3-list-item .image-box .image {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+  background-position: 50%;
+  background-size: 100%;
+  background-size: cover;
+}

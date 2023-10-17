@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import BoardItem from 'components/BoardListItem';
-import { latestBoardListMock } from 'mocks';
+import { latestBoardListMock, top3BoardListMock } from 'mocks';
+import Top3Item from 'components/Top3Item';
 
 function App() {
     // 다크 모드 설정 상태 변수
@@ -42,6 +43,9 @@ function App() {
   return (
     <>
       {latestBoardListMock.map(boardListItem => <BoardItem boardListItem={boardListItem} />)}
+      <div style={{display: 'flex', justifyContent: 'center', gap: '1.5rem' }}>
+        {top3BoardListMock.map(top3ListItem => <Top3Item top3ListItem={top3ListItem} />)}
+      </div>
       <button id="themeMode" className="themeMode title32x" onClick={toggleDarkMode}>
         {buttonLabel}
       </button>
