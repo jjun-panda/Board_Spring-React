@@ -1,0 +1,28 @@
+.inputbox {
+  display: flex;
+  border-radius: 0.5rem;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+.inputbox .labal {
+  color: var(--text-strong);
+}
+.inputbox .container {
+  border-bottom: 1px solid var(--line-strong);
+  padding: 0.5rem 0.75rem 0.5rem 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.inputbox .container.error {
+  border-bottom: 1px solid var(--status-alert);
+}
+.inputbox input:focus {
+  box-shadow: none;
+}
+.inputbox .input {
+  color: var(--text-nomal);
+}
+.inputbox .message {
+  color: var(--status-alert);
+}
