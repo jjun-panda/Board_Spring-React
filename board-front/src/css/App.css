@@ -1,3 +1,25 @@
+.logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.logo {
+  width: 10rem;
+  height: 0;
+  background-position: 50%;
+  justify-items: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: opacity(0.5);
+  padding-top: 20%;
+  position: relative;
+}
+.logo.logo-img {
+  background-image: url(../assets/image/logo.svg);
+}
+
 .icon-button {
   width: 1.5rem;
   height: 1.5rem;
@@ -17,10 +39,30 @@
   background-position: 50%;
   background-size: 100%;
   justify-items: center;
+  filter: opacity(0.5);
+  transition: all 0.3s ease;
+}
+.icon:hover {
+  filter: opacity(1);
 }
 .icon.visibility_on {
   background-image: url(../assets/image/icon/ico_visibility_on.svg);
 }
 .icon.visibility_off {
   background-image: url(../assets/image/icon/ico_visibility_off.svg);
+}
+.icon.insta-icon {
+  background-image: url(../assets/image/icon/ico_sns_insta.svg);
+}
+.icon.naver-blog-icon {
+  background-image: url(../assets/image/icon/ico_sns_blog.svg);
+}
+.icon.facebook-icon {
+  background-image: url(../assets/image/icon/ico_sns_facebook.svg);
+}
+.icon.kakao-icon {
+  background-image: url(../assets/image/icon/ico_sns_kakao.svg);
+}
+.icon.youtube-icon {
+  background-image: url(../assets/image/icon/ico_sns_youtube.svg);
 }

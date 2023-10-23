@@ -6,6 +6,7 @@ import Top3Item from 'components/Top3Item';
 import CommentItem from 'components/CommentItem';
 import FavoriteItem from 'components/FavoriteItem';
 import InputBox from 'components/InputBox';
+import Footer from 'layouts/Footer';
 
 function App() {
 	// 다크 모드 설정 상태 변수
@@ -56,7 +57,8 @@ return (
 		<div style={{padding: '0 1rem', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
 			{commentListMock.map(commentListItem => <CommentItem commentListItem={commentListItem} />)}
 		</div> */}
-		<InputBox labal='이메일' type='text' placeholder='이메일 주소를 입력해주세요' value={value} error={true} setValue={setValue} massage='이메일주소 다시 한번 확인해주세요' />
+		{/* <InputBox labal='이메일' type='email' placeholder='이메일 주소를 입력해주세요' value={value} error={true} setValue={setValue} massage='이메일주소 다시 한번 확인해주세요' /> */}
+		<Footer />
 		<button id="themeMode" className="themeMode title32x" onClick={toggleDarkMode}>
 			{buttonLabel}
 		</button>

@@ -3,7 +3,7 @@ import './css/style.css'
 
 interface Props {
     labal: string;
-    type: 'text' | 'password';
+    type: 'text' | 'password' | 'email';
     placeholder: string;
     value: string;
     setValue: Dispatch<SetStateAction<string>>;

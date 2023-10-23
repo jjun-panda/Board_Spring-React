@@ -1,3 +1,27 @@
+.logo-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.logo {
+	width: 10rem;
+    height: 0;
+	background-position: 50%;
+	justify-items: center;
+	background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-filter: opacity(.5);
+    filter: opacity(.5);
+    padding-top: 20%;
+    position: relative;
+
+	&.logo-img {
+		background-image: url(../assets/image/logo.svg);
+	}
+}
+
 .icon-button {
 	width: 1.5rem;
 	height: 1.5rem;
@@ -18,11 +42,33 @@
 	background-position: 50%;
 	background-size: 100%;
 	justify-items: center;
+    -webkit-filter: opacity(.5);
+    filter: opacity(.5);
+    transition: all .3s ease;
 
+	&:hover {
+		-webkit-filter: opacity(1);
+		filter: opacity(1);
+	}
 	&.visibility_on {
 		background-image: url(../assets/image/icon/ico_visibility_on.svg);
 	}
 	&.visibility_off {
 		background-image: url(../assets/image/icon/ico_visibility_off.svg);
+	}
+	&.insta-icon {
+		background-image: url(../assets/image/icon/ico_sns_insta.svg);
+	}
+	&.naver-blog-icon {
+		background-image: url(../assets/image/icon/ico_sns_blog.svg);
+	}
+	&.facebook-icon {
+		background-image: url(../assets/image/icon/ico_sns_facebook.svg);
+	}
+	&.kakao-icon {
+		background-image: url(../assets/image/icon/ico_sns_kakao.svg);
+	}
+	&.youtube-icon {
+		background-image: url(../assets/image/icon/ico_sns_youtube.svg);
 	}
 }

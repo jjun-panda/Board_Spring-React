@@ -1,0 +1,23 @@
+#footer {
+  width: 100%;
+  padding: 1.5rem;
+  background-color: var(--background-primary);
+}
+#footer .container {
+  max-width: 75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: auto;
+  color: var(--text-assitive);
+}
+#footer .container .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer .container .top .link-box {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

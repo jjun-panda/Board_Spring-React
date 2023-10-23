@@ -1,0 +1,32 @@
+#footer {
+    width: 100%;
+    padding: 1.5rem;
+    background-color: var(--background-primary);
+
+    .container {
+        max-width: 75rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin: auto;
+        color: var(--text-assitive);
+
+        .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .link-box {
+                display: flex;
+                align-items: center;
+                gap: .5rem;
+            }
+        }
+
+        .bottom {
+            .copyright {
+
+            }
+        }
+    }
+}
