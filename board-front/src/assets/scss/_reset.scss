@@ -164,9 +164,9 @@ mark {
 
 pre {
   background-color: var(--text-normal);
-  padding: 16px;
+  padding: 1rem;
   margin: 0;
-  border-radius: 8px;
+  border-radius: .5rem;
 }
 
 code {
@@ -253,14 +253,14 @@ textarea {
   border-radius: 50%;
   background-color: var(--white);
   border: none;
-  box-shadow: 0 2px 15px var(--shaow-nomal);
+  box-shadow: 0 .125rem 1rem var(--shaow-nomal);
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   &:focus {
-    box-shadow: 0 2px 15px var(--shaow-nomal);
+    box-shadow: 0 .125rem 1rem var(--shaow-nomal);
   }
 }
 
@@ -271,7 +271,7 @@ svg {
 
 select:focus, input:focus, textarea:focus, button:focus {
   outline: none;
-  box-shadow: 0px 0px 0px 3px rgba(37, 67, 148, 0.4);
+  box-shadow: 0 0 0 .25rem rgba(37, 67, 148, 0.4);
 }
 *::placeholder {
   color: var(--text-assitive);
@@ -288,10 +288,12 @@ select:focus, input:focus, textarea:focus, button:focus {
 .checkBox + em {
   display: inline-block;
   vertical-align: middle;
-  width: 20px;
-  height: 20px;
+  // width: 20px;
+  // height: 20px;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: .25rem;
-  border: 2px solid var(--line-strong);
+  border: .125rem solid var(--line-strong);
   position: relative;
   background: var(--white);
   cursor: pointer;
