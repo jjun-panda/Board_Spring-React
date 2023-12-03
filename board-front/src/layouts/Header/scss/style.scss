@@ -19,6 +19,7 @@
             display: flex;
             align-items: center;
             height: 2.5rem;
+            gap: .5rem;
 
             .search-input-box {
                 border: 1px solid var(--line-strong);
@@ -28,6 +29,7 @@
                 height: 2.5rem;
                 align-items: center;
                 gap: .5rem;
+                transition: fill 0.3s ease;
 
                 .search-input {
                     &:focus {

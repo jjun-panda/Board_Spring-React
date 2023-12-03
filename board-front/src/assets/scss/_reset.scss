@@ -105,7 +105,7 @@ section {
 }
 
 html, body, #theme{
-  background-color: var(--white);
+  background-color: var(--background-secondary);
   color: var(--text-normal);
 }
 
@@ -170,12 +170,13 @@ pre {
 }
 
 code {
-  color: var(--text-dlsable);
+  color: var(--text-disable);
 }
 
 * {
   box-sizing: border-box;
   word-break: keep-all;
+  font-family: var(--font);
 }
 
 a,
@@ -251,16 +252,16 @@ textarea {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
-  background-color: var(--white);
+  background-color: var(--background-secondary);
   border: none;
-  box-shadow: 0 .125rem 1rem var(--shaow-nomal);
+  box-shadow: 0 .125rem 1rem var(--shadow-normal);
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   &:focus {
-    box-shadow: 0 .125rem 1rem var(--shaow-nomal);
+    box-shadow: 0 .125rem 1rem var(--shadow-normal);
   }
 }
 
@@ -274,7 +275,7 @@ select:focus, input:focus, textarea:focus, button:focus {
   box-shadow: 0 0 0 .25rem rgba(37, 67, 148, 0.4);
 }
 *::placeholder {
-  color: var(--text-assitive);
+  color: var(--text-assistive);
 }
 *:disabled, .disabled, #disabled {
   cursor: no-drop;
@@ -368,16 +369,16 @@ select:focus, input:focus, textarea:focus, button:focus {
   font-size: 1rem;
   background: none;
   border: none;
-  background-color: var(--white);
+  background-color: var(--background-secondary);
   color: var(--text-normal);
   flex: 1;
 
   &:read-only {
-      color: var(--text-assitive);
+      color: var(--text-assistive);
       background-color: var(--fill-primary);
   }
   &:disabled {
-      color: var(--text-dlsable);
+      color: var(--text-disable);
       background-color: var(--fill-alternative);
   }
 }

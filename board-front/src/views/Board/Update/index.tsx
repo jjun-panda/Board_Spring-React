@@ -3,6 +3,6 @@ import './css/style.css'
 
 export default function BoardUpdate() {
     return (
-        <div>index</div>
+        <div>게시물 수정</div>
     )
 }

@@ -3,6 +3,6 @@ import './css/style.css'
 
 export default function BoardWrite() {
     return (
-        <div>index</div>
+        <div>게시물 쓰기</div>
     )
 }

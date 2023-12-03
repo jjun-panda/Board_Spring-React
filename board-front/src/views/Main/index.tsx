@@ -3,6 +3,6 @@ import './css/style.css'
 
 export default function Main() {
     return (
-        <div>index</div>
+        <div>메인</div>
     )
 }

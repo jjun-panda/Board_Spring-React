@@ -3,6 +3,6 @@ import './css/style.css'
 
 export default function Authentication() {
     return (
-        <div>index</div>
+        <div>인증</div>
     )
 }

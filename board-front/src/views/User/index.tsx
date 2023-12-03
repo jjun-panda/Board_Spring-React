@@ -3,6 +3,6 @@ import './css/style.css'
 
 export default function User() {
     return (
-        <div>index</div>
+        <div>사용자</div>
     )
 }
