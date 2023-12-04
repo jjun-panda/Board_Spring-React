@@ -153,7 +153,7 @@ export default function Header() {
 
     // path가 변경 괼 때 마다 실행될 함수
     useEffect(() => {
-        const isAuthPage = pathname.startsWith(BOARD_PATH());
+        const isAuthPage = pathname.startsWith(AUTH_PATH());
         setAuthPage(isAuthPage);
         const isMainPage = pathname === MAIN_PATH();
         setMainPage(isMainPage);

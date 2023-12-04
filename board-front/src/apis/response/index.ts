@@ -1,3 +1,5 @@
-import { ResponseCode } from "types/enum"
+import ResponseDto from "./response.dto";
 
-export type { ResponseCode }
+export type {
+    ResponseDto
+};
